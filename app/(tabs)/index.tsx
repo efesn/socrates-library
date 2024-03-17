@@ -79,7 +79,41 @@ const styles = StyleSheet.create({
     color: '#333',
     marginTop: 50,
     textAlign: 'center',
-  },  
+  },
+
+  bookContainer: {
+    marginBottom: 40,
+    alignItems: 'center',
+    marginTop: 40,
+  },
+
+  bookDetails: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+
+  coverImage: {
+    width: 100,
+    height: 150,
+    marginRight: 10,
+  },
+
+  textContainer: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'justify', 
+  },
+
+  author: {
+    fontSize: 16,
+    color: '#555',
+    textAlign: 'left', 
+  },
 });
 
 export default HomeScreen;
